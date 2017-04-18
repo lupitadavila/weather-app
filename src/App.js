@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 import './App.css';
-import "bootstrap/dist/css/bootstrap.css";
+import "bootswatch/cosmo/bootstrap.css";
 import { Navbar, NavItem, Nav, Grid, Row, Col } from "react-bootstrap";
+// import "bootstrap/dist/css/bootstrap.css";
+
 
 // Places
 const PLACES = [
@@ -62,7 +64,7 @@ class App extends Component {
         <Navbar>
           <Navbar.Header>
             <Navbar.Brand>
-              React Simple Weather App
+              Weather App
             </Navbar.Brand>
           </Navbar.Header>
         </Navbar>
